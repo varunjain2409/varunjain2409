@@ -50,7 +50,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=varunjain2409&show_icons=true&theme=tokyonight&rank=1&rank_icon=github&include_all_commits=true&count_private=true&border_radius=12" alt="GitHub Stats" height="200"/>
+<img src="https://github-readme-stats.vercel.app/api?username=varunjain2409&show_icons=true&theme=tokyonight&include_all_commits=true&rank=1&rank_icon=github&border_radius=12" alt="GitHub Stats" height="200"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=varunjain2409&layout=compact&theme=tokyonight&langs_count=8&border_radius=12" alt="Top Languages" height="200"/>
 
 </div>
