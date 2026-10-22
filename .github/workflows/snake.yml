@@ -19,6 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
       - name: Generate contribution snake
         id: snake
         uses: Platane/snk@v3
@@ -30,10 +35,9 @@ jobs:
 
       - name: Commit & push generated files
         run: |
-          cd dist
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add dist/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
